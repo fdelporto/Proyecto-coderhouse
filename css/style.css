@@ -8,8 +8,9 @@ body {
     font-family: "Poppins", sans-serif;
     --color1: #FFF;
     --color2: #070707;
+ 
+    
 }
-
 .nav-bar {
     width: 100%;
     display: flex;
@@ -114,3 +115,67 @@ body {
         right: 0;
     }
 }
+
+/*  fin de la navbar   */
+main {
+    width: 100%;
+    background: #f1f1f1;
+  }
+  
+  main .local {
+    padding-top: 5em;
+    background: url(../Imagenes/fondo3.jpg) no-repeat center;
+    background-blend-mode: multiply;
+    background-attachment: scroll;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+  }
+  
+  main .local__info {
+    display: flex;
+    flex-flow: column;
+    text-align: center;
+    width: 90%;
+    margin: 0 auto;
+  }
+  
+  main .local__info h1 {
+    display: flex;
+    flex-flow: column;
+    margin-bottom: .4em;
+    font-size: 2.5rem;
+    line-height: 1em;
+    color: #020202;
+  }
+  
+  main .local__info p {
+    font-weight: 600;
+    color: #000000;
+  }
+  
+  main .local__wpp {
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 3em;
+  }
+  
+  main .local__wpp a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: .7em 1em;
+    margin: .25em;
+    text-decoration: none;
+    background-color: #007200;
+    color: #000000;
+    border-radius: 1em;
+  }
+  
+  main .local__wpp a img {
+    width: 2.5em;
+    height: 2.5em;
+    margin: .25em;
+  }
