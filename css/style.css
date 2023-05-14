@@ -366,7 +366,7 @@ footer {
     display: flex;
     flex-flow: wrap;
     justify-content: space-between;
-    width: 80%;
+    width: 90%;
     padding-left: 8rem;
     
     
@@ -417,3 +417,4 @@ footer {
     font-weight: 700;
     color: #f80606;
 }
+/* FIN DE LA PARTE DE CARTA */
