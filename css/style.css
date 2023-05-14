@@ -5,12 +5,13 @@
 }
 
 body {
-    font-family: "Poppins", sans-serif;
+    font-family: 'Libre Baskerville', serif;
     --color1: #FFF;
-    --color2: #070707;
- 
-    
+    --color2: #070707b6;
+
+
 }
+
 .nav-bar {
     width: 100%;
     display: flex;
@@ -18,8 +19,9 @@ body {
     align-items: center;
     list-style: none;
     position: relative;
-    background-color: var(--color2);
+    background-color: rgba(3, 3, 3, 0.801);
     padding: 12px 20px;
+    position: fixed;
 }
 
 .logo img {
@@ -120,11 +122,11 @@ body {
 main {
     width: 100%;
     background: #f1f1f1;
-  }
-  
-  main .local {
+}
+
+main .local {
     padding-top: 5em;
-    background: url(../Imagenes/fondo3.jpg) no-repeat center;
+    background: url(../Imagenes/general/fondo3.jpg) #525252 no-repeat center;
     background-blend-mode: multiply;
     background-attachment: scroll;
     background-size: cover;
@@ -132,37 +134,42 @@ main {
     display: flex;
     flex-flow: column;
     justify-content: center;
-  }
-  
-  main .local__info {
+}
+
+main .local__info {
     display: flex;
     flex-flow: column;
     text-align: center;
     width: 90%;
     margin: 0 auto;
-  }
-  
-  main .local__info h1 {
+}
+
+main .local__info h1 {
     display: flex;
     flex-flow: column;
-    margin-bottom: .4em;
-    font-size: 2.5rem;
+    margin-bottom: 1em;
+    font-size: 3rem;
     line-height: 1em;
-    color: #020202;
-  }
-  
-  main .local__info p {
-    font-weight: 600;
-    color: #000000;
-  }
-  
-  main .local__wpp {
-    width: 80%;
+    color: #fffefe;
+    text-decoration: underline;
+    padding-top: 10rem;
+
+}
+
+main .local__info p {
+    font-weight: bold;
+    color: #fffdfd;
+    padding-bottom: 2rem;
+}
+
+main .local__wpp {
+    width: 20%;
     margin: 0 auto;
     padding-top: 3em;
-  }
-  
-  main .local__wpp a {
+    padding-bottom: 15rem;
+}
+
+main .local__wpp a {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -170,12 +177,171 @@ main {
     margin: .25em;
     text-decoration: none;
     background-color: #007200;
-    color: #000000;
+    color: #f3f3f3;
     border-radius: 1em;
-  }
-  
-  main .local__wpp a img {
+    font-weight: bold;
+}
+
+main .local__wpp a img {
     width: 2.5em;
     height: 2.5em;
     margin: .25em;
-  }
+}
+
+/* FIN DE LA NAVBAR */
+
+main .daymenu {
+    padding: 1em;
+}
+
+main .daymenu__info {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+
+main .daymenu__info h2 {
+    margin-bottom: .3em;
+    font-size: 3rem;
+}
+
+main .daymenu__info p {
+    margin-bottom: 2em;
+    font-size: 1rem;
+    font-weight: 500;
+    text-align: center;
+}
+
+main .daymenu__info p span {
+    font-weight: bold;
+    color: #f30303;
+}
+
+
+.card {
+    background-color: #050505;
+    width: 23rem;
+    padding: .5rem;
+    border-radius: 2%;
+    margin: 1rem;
+    color: #ffffff;
+}
+
+.card .imagen__card {
+    width: 100%;
+}
+
+.contenedor__home {
+    display: flex;
+    justify-content: center;
+}
+
+.card__titulo {
+    text-align: center;
+    padding-top: 1rem;
+}
+
+.texto__card {
+    text-align: center;
+    padding-top: 1rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer {
+    background-color: black;
+    height: 10rem;
+    width: 100vw;
+    color: white;
+    position: relative;
+    bottom: 0;
+
+}
+
+.footer_contenedor {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.footer_contenedor h3 {
+    font-size: 1.8rem;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 3rem;
+}
+
+.footer_contenedor {
+    max-width: 100%;
+    margin: auto;
+    line-height: 28px;
+    font-size: 14px;
+}
+
+.social_media {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    width: 100vw;
+
+}
+
+.social_media li {
+    margin: 0 10px;
+}
+
+.social_media a {
+    text-decoration: none;
+    color: white;
+}
+
+.socia_media a i {
+    font-size: 1.1rem;
+}
+
+.media_social:hover {
+    color: rgb(255, 0, 0);
+}
+
+.footer_li:hover {
+    background-color: rgba(0, 0, 0, 0.425);
+}
