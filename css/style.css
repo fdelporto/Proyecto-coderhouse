@@ -338,9 +338,10 @@ footer {
 #carta h2 {
     margin-bottom: 1em;
     text-align: center;
-    font-size: 2rem;
+    font-size: 4rem;
     color: #ff0000;
     padding-bottom: 3rem;
+    text-decoration: underline;
 
 }
 
@@ -580,3 +581,13 @@ footer {
 }
 
 /* FIN DEL RESPONSIVE */
+
+.proximamente{
+    padding-top: 10rem;
+    text-align: center;
+}
+
+.delivery{
+    padding-top: 10rem;
+    text-align: center;
+}
