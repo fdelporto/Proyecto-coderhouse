@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cortile | Bodegón</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="icon" href="./Imagenes/logos/CortileCon.png">
+    <script src="https://kit.fontawesome.com/eb496ab1a0.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav>
+          <ul class="nav-bar">
+            <li class="logo">
+              <a href="./index.html"><img src="./Imagenes/logos/Cortile.png" /></a>
+            </li>
+            <input type="checkbox" id="check" />
+            <span class="menu">
+              <li><a href="./index.html">Inicio</a></li>
+              <li><a href="./carta.html">Carta</a></li>
+              <li><a href="">Delivery</a></li>
+              <li><a href="">Promociones</a></li>
+              <li><a href="./contacto.html">Contacto</a></li>
+              <label for="check" class="close-menu"
+                ><i class="fas fa-times"></i
+              ></label>
+            </span>
+            <label for="check" class="open-menu"
+              ><i class="fas fa-bars"></i
+            ></label>
+          </ul>
+        </nav>
+      </header>
+      <main id="contacto">
+        <div class="form-container">
+            <section class="form-container__title">
+                <h1>Contactate con Nosotros!</h1>
+                <p>¿Alguna duda, sugerencia, inconveniente, etc.? Dejános tu mensaje!</p>
+            </section>
+            <form class="form-container__form">
+                <input type="text" name="name" id="name" placeholder="Escribí tu nombre" required>
+
+                <input type="mail" name="mail" id="mail" placeholder="Escribí tu correo electrónico" required>
+
+                <select name="motivo" id="motivo" required>
+                    <option value="select" disabled>Seleccionar Motivo</option>
+                    <option value="duda">Duda</option>
+                    <option value="sugerencia">Sugerencia</option>
+                    <option value="reseña">Reseña</option>
+                    <option value="problema-inconveniente">Problema/Inconveniente</option>
+                </select>
+
+                <textarea name="textarea" id="textarea" placeholder="Dejános tu mensaje!" required></textarea>
+
+                <input type="submit" value="Enviar">
+            </form>
+        </div>
+    </main>
+
+</body>
+</html>
